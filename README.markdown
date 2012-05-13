@@ -3,8 +3,9 @@ wp-highlight.js
 
 ## Description ##
 
-This is a simple wordpress plugin for [highlight.js](http://softwaremaniacs.org/soft/highlight/en/)
-library. **Highlight.js** highlights syntax in code examples on blogs, forums
+This is a simple [wordpress](http://wordpress.org) plugin for
+[highlight.js](http://softwaremaniacs.org/soft/highlight/en/) library.
+**Highlight.js** highlights syntax in code examples on blogs, forums
 and in fact on any web pages. It's very easy to use because it works
 automatically: finds blocks of code, detects a language, highlights it.
 
@@ -35,5 +36,6 @@ Smalltalk, SQL, TeX, Vala, VBscript, VHDL, HTML/XML
 ## Meta ##
 
 * Author: [Igor Kalnitsky](http://www.kalnitsky.org/)
+* Wordpress: <http://wordpress.org/extend/plugins/wp-highlightjs/>
 * Version: 0.2
 * License: GPLv3
