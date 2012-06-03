@@ -13,15 +13,16 @@ automatically: finds blocks of code, detects a language, highlights it.
 
 * works with comments
 * high performance
-* choice of the lighting colorsheme
+* nice colorshemes
 
-### Languages: ###
+### Languages ###
 
 1C, ActionScript, Apache, AVR Asm, Axapta, Bash, CMake, CoffeeScript C++, C#,
-CSS, D, Delphi, Diff, Django, Dos, Erlang, Erlang REPL, Go, Haskell, HTTP, Ini,
-Java, JavaScript, JSON, Lisp, Lua, Markdown, MatLab, MEL, Nginx, Objective C,
-Parser3, Perl, PHP, Python profile, Python, R, Renderman, Ruby, Rust, Scala,
-Smalltalk, SQL, TeX, Vala, VBscript, VHDL, HTML/XML
+CSS, D, Delphi, Diff, Django, Dos, Erlang, Erlang REPL, Go, GLSL, Haskell,
+HTTP, Ini, Java, JavaScript, JSON, Lisp, Lua, Markdown, MatLab, MEL, Nginx,
+Objective C, Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL,
+RenderMan RIB, Ruby, Rust, Scala, Smalltalk, SQL, TeX, Vala, VBscript, VHDL,
+HTML/XML, HTTP
 
 
 ## Installation ##

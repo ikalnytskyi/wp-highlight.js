@@ -3,7 +3,7 @@
 Plugin Name: wp-highlight.js
 Plugin URI: http://www.kalnitsky.org/projects/wp-highlight.js/
 Description: This is simple wordpress plugin for <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a> library. Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages. It&acute;s very easy to use because it works automatically: finds blocks of code, detects a language, highlights it.
-Version: 0.2.2
+Version: 0.2.3
 Author: Igor Kalnitsky
 Author URI: http://www.kalnitsky.org/
 License: GPL3
@@ -242,11 +242,12 @@ function hljs_settings_page() {
                 <tr>
                     <td width="120px" align="center"><?php echo __('Language Support', 'hljs'); ?></td>
                     <td><p>
-                          1C, ActionScript, Apache, AVR Asm, Axapta, Bash, CMake, CoffeeScript C++, C#,
-                          CSS, D, Delphi, Diff, Django, Dos, Erlang, Erlang REPL, Go, Haskell, HTTP, Ini,
-                          Java, JavaScript, JSON, Lisp, Lua, Markdown, MatLab, MEL, Nginx, Objective C,
-                          Parser3, Perl, PHP, Python profile, Python, R, Renderman, Ruby, Rust, Scala,
-                          Smalltalk, SQL, TeX, Vala, VBscript, VHDL, HTML/XML
+                        1C, ActionScript, Apache, AVR Asm, Axapta, Bash, CMake, CoffeeScript C++, C#,
+                        CSS, D, Delphi, Diff, Django, Dos, Erlang, Erlang REPL, Go, GLSL, Haskell,
+                        HTTP, Ini, Java, JavaScript, JSON, Lisp, Lua, Markdown, MatLab, MEL, Nginx,
+                        Objective C, Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL,
+                        RenderMan RIB, Ruby, Rust, Scala, Smalltalk, SQL, TeX, Vala, VBscript, VHDL,
+                        HTML/XML, HTTP
                         </p>
                     </td>
                 </tr>
@@ -257,7 +258,7 @@ function hljs_settings_page() {
     </div>
 
     <!-- /html code of settings page -->
-    
+
     <?php
 }
 ?>
