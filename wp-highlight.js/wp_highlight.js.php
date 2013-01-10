@@ -164,7 +164,7 @@ function hljs_settings_page() {
 
     <div class="wrap">
 
-      <form id="hljs" method="post" action="<? echo $_SERVER['REQUEST_URI'];?>">
+      <form id="hljs" method="post" action="<?php echo $_SERVER['REQUEST_URI'];?>">
 
         <script type="text/javascript" src="<?php echo ($PLUGIN_DIR . '/' . 'highlight.pack.js'); ?>"></script>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
