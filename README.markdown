@@ -36,7 +36,7 @@ HTML/XML, HTTP
 
 ## Meta ##
 
-* Author: [Igor Kalnitsky](http://www.kalnitsky.org/)
+* Author: [Igor Kalnitsky](http://www.kalnitsky.org/about/en/)
 * Wordpress: <http://wordpress.org/extend/plugins/wp-highlightjs/>
 * Version: 0.2
 * License: GPLv3
