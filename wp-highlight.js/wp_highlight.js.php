@@ -79,7 +79,7 @@ add_action('wp_head', 'hljs_include');
 function init_hljs_textdomain() {
     if (function_exists('load_plugin_textdomain')) {
         global $PLUGIN_DIR;
-        load_plugin_textdomain('hljs', PLUGINDIR . '/' . dirname(plugin_basename (__FILE__)));
+        load_plugin_textdomain('hljs', null, trailingslashit( plugins_url( __FILE__ ) ) );
     }
 }
 
@@ -147,9 +147,8 @@ add_shortcode('code', 'hljs_code_handler');
 
 function hljs_settings_page() {
     global $PLUGIN_DIR;
-    $cmd = $_POST['cmd'];
 
-    if ($cmd == "hljs_save")
+    if ( isset( $_POST['cmd'] ) && $_POST['cmd'] == "hljs_save" )
     {
         update_option('hljs_style', $_POST['hljs_style']);
         update_option('hljs_tab_replace', $_POST['hljs_tab_replace']);
@@ -164,7 +163,7 @@ function hljs_settings_page() {
 
     <div class="wrap">
 
-      <form id="hljs" method="post" action="<?php echo $_SERVER['REQUEST_URI'];?>">
+      <form id="hljs" method="post" action="<? echo $_SERVER['REQUEST_URI'];?>">
 
         <script type="text/javascript" src="<?php echo ($PLUGIN_DIR . '/' . 'highlight.pack.js'); ?>"></script>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>

@@ -3,7 +3,7 @@ wp-highlight.js
 
 ## Description ##
 
-This is a simple [wordpress](http://wordpress.org) plugin for
+This is a simple [WordPress](http://wordpress.org) plugin for
 [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) library.
 **Highlight.js** highlights syntax in code examples on blogs, forums
 and in fact on any web pages. It's very easy to use because it works
