@@ -78,8 +78,7 @@ add_action('wp_head', 'hljs_include');
 
 function init_hljs_textdomain() {
     if (function_exists('load_plugin_textdomain')) {
-        global $PLUGIN_DIR;
-        load_plugin_textdomain('hljs', null, trailingslashit( plugins_url( __FILE__ ) ) );
+        load_plugin_textdomain( 'hljs', false, dirname( plugin_basename( __FILE__ ) ) );
     }
 }
 
