@@ -15,6 +15,7 @@ pre .change,
 pre .winutils,
 pre .flow,
 pre .lisp .title,
+pre .clojure .built_in,
 pre .nginx .title,
 pre .tex .special,
 pre .request,
@@ -24,7 +25,7 @@ pre .status {
 }
 
 pre code,
-pre .ruby .subst,
+pre .subst,
 pre .tag .keyword {
   color: #363C69;
 }
@@ -37,9 +38,6 @@ pre .css .rules .value,
 pre .preprocessor,
 pre .ruby .symbol,
 pre .ruby .symbol .string,
-pre .ruby .symbol .keyword,
-pre .ruby .symbol .keymethods,
-pre .ruby .instancevar,
 pre .ruby .class .parent,
 pre .built_in,
 pre .sql .aggregate,
@@ -96,9 +94,11 @@ pre .tex .command {
 }
 
 pre .coffeescript .javascript,
-pre .xml .css,
+pre .javascript .xml,
+pre .tex .formula,
 pre .xml .javascript,
 pre .xml .vbscript,
-pre .tex .formula {
+pre .xml .css,
+pre .xml .cdata {
   opacity: 0.8;
 }
