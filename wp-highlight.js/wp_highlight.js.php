@@ -197,7 +197,7 @@ function hljs_settings_page() {
             <table border="0" class="hljs_copyright">
                 <tr>
                     <td width="120px" align="center"><?php echo __('Author', 'hljs'); ?></td>
-                    <td><p><a href="http://www.kalnitsky.org"><?php echo __('Igor Kalnitsky', 'hljs'); ?></a> &lt;<a href="mailto:igor@kalnitsky.org">igor@kalnitsky.org</a>&gt;</p></td>
+                    <td><p><a href="http://kalnitsky.org"><?php echo __('Igor Kalnitsky', 'hljs'); ?></a> &lt;<a href="mailto:igor@kalnitsky.org">igor@kalnitsky.org</a>&gt;</p></td>
                 </tr>
 
                 <tr>
@@ -223,12 +223,13 @@ function hljs_settings_page() {
                 <tr>
                     <td width="120px" align="center"><?php echo __('Language Support', 'hljs'); ?></td>
                     <td><p>
-                        1C, ActionScript, Apache, AVR Asm, Axapta, Bash, CMake, CoffeeScript C++, C#,
-                        CSS, D, Delphi, Diff, Django, Dos, Erlang, Erlang REPL, Go, GLSL, Haskell,
-                        HTTP, Ini, Java, JavaScript, JSON, Lisp, Lua, Markdown, MatLab, MEL, Nginx,
-                        Objective C, Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL,
-                        RenderMan RIB, Ruby, Rust, Scala, Smalltalk, SQL, TeX, Vala, VBscript, VHDL,
-                        HTML/XML, HTTP
+                        1C, ActionScript, Apache, AppleScript, ASCII Doc, AVR Asm, Axapta, Bash,
+                        Brainfuck, Clojure, CMake, CoffeeScript, C++, C#, CSS, Delphi, Diff, Django,
+                        D, Dos, Erlang, Erlang REPL, F#, GLSL, Go, HAML, Haskell, HTTP, Ini, Java,
+                        JavaScript, JSON, Lasso, Lisp, Lua, Markdown, MatLab, MEL, Nginx, Objective C,
+                        Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL, RenderMan RIB,
+                        Ruby, Rules, Rust, Scala, SCSS, Smalltalk, SQL, TeX, Vala, VisualBasic.NET,
+                        VBscript, VHDL, HTML/XML
                         </p>
                     </td>
                 </tr>
