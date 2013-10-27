@@ -241,7 +241,5 @@ function hljs_settings_page() {
 
     <!-- /html code of settings page -->
 
-    <?php
+<?php
 }
-?>
-
