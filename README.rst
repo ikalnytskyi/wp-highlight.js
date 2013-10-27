@@ -63,5 +63,5 @@ Meta
 :Author:        `Igor Kalnitsky <http://kalnitsky.org/about/en/>`_
 :Plugin URL:    `wordpress site <http://wordpress.org/extend/plugins/wp-highlightjs/>`_
 
-:Version:       0.3
+:Version:       0.3.1
 :License:       BSD
