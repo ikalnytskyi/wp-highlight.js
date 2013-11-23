@@ -3,7 +3,7 @@ Donate link: http://kalnitsky.org/
 Tags: source, code, highlight, sourcecode, highlighter, plugin, syntax, SyntaxHighlighter
 Requires at least: 3.0
 Tested up to: 3.6.1
-Stable tag: 0.3.1
+Stable tag: 0.3.2
 
 This is simple wordpress plugin for highlight.js library.
 Highlight.js highlights syntax in code examples on blogs, forums and in fact on
@@ -26,12 +26,14 @@ code, detects a language, highlights it.
 **Languages:**
 
 1C, ActionScript, Apache, AppleScript, ASCII Doc, AVR Asm, Axapta, Bash,
-Brainfuck, Clojure, CMake, CoffeeScript, C++, C#, CSS, Delphi, Diff, Django,
-D, Dos, Erlang, Erlang REPL, F#, GLSL, Go, HAML, Haskell, HTTP, Ini, Java,
-JavaScript, JSON, Lasso, Lisp, Lua, Markdown, MatLab, MEL, Nginx, Objective C,
-Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL, RenderMan RIB,
-Ruby, Rules, Rust, Scala, SCSS, Smalltalk, SQL, TeX, Vala, VisualBasic.NET,
-VBscript, VHDL, HTML/XML
+Brainfuck, Clojure, CMake, CoffeeScript, C++, C#, CSS, D, Delphi, Diff,
+Django, DOS, Erlang REPL, Erlang, F#, GLSL, Go, HAML, Handlebars, Haskell,
+HTML/XML, HTTP, INI, Java, JavaScript, JSON, Lasso, Lisp, LiveCode Server,
+Lua, Makefile, Markdown, MatLab, MEL, Mizar, Nginx, Objective-C, OCaml,
+Parser3, Perl, PHP, Python's profiler, Python, R, RenderMan RIB,
+RenderMan RSL, Ruby, Rules, Rust, Scala, SciLab, SCSS, Smalltalk, SQL, TeX,
+Vala, VisualBasic .NET, VBscript, VHDL.
+
 
 Author: [Igor Kalnitsky](http://kalnitsky.org/)
 
@@ -45,6 +47,11 @@ Author: [Igor Kalnitsky](http://kalnitsky.org/)
 
 
 == Changelog ==
+
+= 0.3.2 =
+
+- Update highlight.js core to version 7.5.
+- New languages.
 
 = 0.3.1 =
 
@@ -106,6 +113,7 @@ Author: [Igor Kalnitsky](http://kalnitsky.org/)
 = 0.1.0 =
 
 - First release.
+
 
 == License ==
 

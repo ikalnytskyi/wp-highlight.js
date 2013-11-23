@@ -22,27 +22,29 @@ Languages
 `````````
 
 ====================    ====================    ====================
-   1C                      Erlang                  Parser3
-   ActionScript            Erlang REPL             Perl
-   Apache                  F#                      PHP
-   AppleScript             GLSL                    Python profile
-   ASCII Doc               Go                      Python
-   AVR Asm                 HAML                    R
-   Axapta                  Haskell                 RenderMan RSL
-   Bash                    HTTP                    RenderMan RIB
-   Brainfuck               Ini                     Ruby
-   Clojure                 Java                    Rules
-   CMake                   JavaScript              Rust
-   CoffeeScript            JSON                    Scala
-   C++                     Lasso                   SCSS
-   C#                      Lisp                    Smalltalk
-   CSS                     Lua                     SQL
-   Delphi                  Markdown                TeX
-   Diff                    MatLab                  Vala
-   Django                  MEL                     VisualBasic.NET
-   D                       Nginx                   VBscript
-   Dos                     Objective C             VHDL
-                                                   HTML/XML
+  1C                      ActionScript            Apache
+  AppleScript             ASCII Doc               AVR Asm
+  Axapta                  Bash                    Brainfuck
+  Clojure                 CMake                   CoffeeScript
+  C++                     C#                      CSS
+  D                       Delphi                  Diff
+  Django                  DOS                     Erlang REPL
+  Erlang                  F#                      GLSL
+  Go                      HAML                    Handlebars
+  Haskell                 HTML/XML                HTTP
+  INI                     Java                    JavaScript
+  JSON                    Lasso                   Lisp
+  LiveCode Server         Lua                     Makefile
+  Markdown                MatLab                  MEL
+  Mizar                   Nginx                   Objective-C
+  OCaml                   Parser3                 Perl
+  PHP                     Python's profiler       Python
+  R                       RenderMan RIB           RenderMan RSL
+  Ruby                    Rules                   Rust
+  Scala                   SciLab                  SCSS
+  Smalltalk               SQL                     TeX
+  Vala                    VisualBasic .NET        VBscript
+  VHDL
 ====================    ====================    ====================
 
 
@@ -63,5 +65,5 @@ Meta
 :Author:        `Igor Kalnitsky <http://kalnitsky.org/about/en/>`_
 :Plugin URL:    `wordpress site <http://wordpress.org/extend/plugins/wp-highlightjs/>`_
 
-:Version:       0.3.1
+:Version:       0.3.2
 :License:       BSD
