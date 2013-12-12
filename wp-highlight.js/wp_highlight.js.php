@@ -61,12 +61,12 @@ add_action('wp_head', 'hljs_include');
 
 function init_hljs_textdomain() {
     if (function_exists('load_plugin_textdomain')) {
-        load_plugin_textdomain( 'hljs', false, dirname( plugin_basename( __FILE__ ) ) );
+        load_plugin_textdomain( 'hljs', false, dirname( plugin_basename( __FILE__ ) ) . '/' . 'translations' );
     }
 }
 
 # 
-# Initialize Localization Functions
+# Print Combobox With Styles
 #
 
 function hljs_get_style_list($currentStyle) {
