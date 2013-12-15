@@ -1,98 +1,134 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: highlight.js\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-15 16:07+0300\n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: wp-highlight.js\n"
+"POT-Creation-Date: 2013-12-15 22:50+0300\n"
+"PO-Revision-Date: 2013-12-15 23:01+0300\n"
 "Last-Translator: Igor Kalnitsky <igor@kalnitsky.org>\n"
-"Language-Team: Igor Kalnitsky <igor.kalnitsky@gmail.com>\n"
-"Language: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: UKRAINE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: .\n"
+"Language: Russian\n"
+"X-Poedit-SearchPath-0: ..\n"
 
-#: wp_highlight.js.php:115
+#: ../wp_highlight.js.php:96
 msgid "wp-highlight.js settings"
 msgstr "Настройки wp-highlight.js"
 
-#: wp_highlight.js.php:125
+#: ../wp_highlight.js.php:96
+msgid "wp-highlight.js"
+msgstr "wp-highlight.js"
+
+#: ../wp_highlight.js.php:106
 msgid "Settings"
 msgstr "Настройки"
 
-#: wp_highlight.js.php:158
+#: ../wp_highlight.js.php:137
 msgid "All configurations successfully saved..."
 msgstr "Все настройки успешно сохранены..."
 
-#: wp_highlight.js.php:191
-msgid "Color Scheme"
-msgstr "Цветовая схема"
+#: ../wp_highlight.js.php:170
+msgid "Color Scheme:"
+msgstr "Цветовая схема:"
 
-#: wp_highlight.js.php:200
-msgid "You can replaces TAB (\\x09) characters used for indentation in your code with some fixed number of spaces or with a &lt;span&gt; to set them special styling"
-msgstr "Вы можете заменить TAB(\\x09), используемый для отступов в вашем исходном коде, на фиксированное число пробелов или на &lt;span&gt; вставку, для предания ему (TAB) особого стиля"
+#: ../wp_highlight.js.php:179
+msgid ""
+"You can replaces TAB (\\x09) characters used for indentation in your code "
+"with some fixed number of spaces or with a &lt;span&gt; to set them special "
+"styling:"
+msgstr ""
+"Вы можете заменить символы TAB(\\x09), используемые для отступов в вашем "
+"исходном коде, на фиксированное число пробелов или на &lt;span&gt; вставку, "
+"для предания отступам особого стиля:"
 
-#: wp_highlight.js.php:206
-msgid "You can add some additional CSS rules for better display"
-msgstr "Вы можете добавить дополнительные CSS правила для лучшего отображения блоков кода"
+#: ../wp_highlight.js.php:185
+msgid "You can add some additional CSS rules for better display:"
+msgstr ""
+"Вы можете добавить дополнительные CSS правила для лучшего отображения блоков "
+"кода:"
 
-#: wp_highlight.js.php:211
+#: ../wp_highlight.js.php:190
 msgid "Save"
 msgstr "Сохранить"
 
-#: wp_highlight.js.php:218
+#: ../wp_highlight.js.php:197
 msgid "Author"
 msgstr "Автор"
 
-#: wp_highlight.js.php:219
+#: ../wp_highlight.js.php:198
 msgid "Igor Kalnitsky"
 msgstr "Игорь Кальницкий"
 
-#: wp_highlight.js.php:223
+#: ../wp_highlight.js.php:202
 msgid "Plugin Info"
 msgstr "О плагине"
 
-#: wp_highlight.js.php:224
-msgid "This is simple wordpress plugin for <a href=\"http://softwaremaniacs.org/soft/highlight/en/\">highlight.js</a> library. <a href=\"http://softwaremaniacs.org/soft/highlight/en/\">Highlight.js</a> highlights syntax in code examples on blogs, forums and in fact on any web pages. It&acute;s very easy to use because it works automatically: finds blocks of code, detects a language, highlights it."
-msgstr "Это простой Wordpress плагин для использования библиотеки <a href=\"http://softwaremaniacs.org/soft/highlight/\">highlight.js</a>. <a href=\"http://softwaremaniacs.org/soft/highlight//\">Highlight.js</a> нужен для подсветки синтаксиса в примерах кода в блогах, форумах и вообще на любых веб-страницах. Пользоваться им очень просто, потому что работает он автоматически: сам находит блоки кода, сам определяет язык, сам подсвечивает."
+#: ../wp_highlight.js.php:203
+msgid ""
+"This is simple wordpress plugin for <a href=\"http://softwaremaniacs.org/"
+"soft/highlight/en/\">highlight.js</a> library. <a href=\"http://"
+"softwaremaniacs.org/soft/highlight/en/\">Highlight.js</a> highlights syntax "
+"in code examples on blogs, forums and in fact on any web pages. It&acute;s "
+"very easy to use because it works automatically: finds blocks of code, "
+"detects a language, highlights it."
+msgstr ""
+"Это простой Wordpress плагин для использования библиотеки <a href=\"http://"
+"softwaremaniacs.org/soft/highlight/\">highlight.js</a>. <a href=\"http://"
+"softwaremaniacs.org/soft/highlight//\">Highlight.js</a> нужен для подсветки "
+"синтаксиса в примерах кода в блогах, форумах и вообще на любых веб-"
+"страницах. Пользоваться им очень просто, потому что работает он "
+"автоматически: сам находит блоки кода, сам определяет язык, сам подсвечивает."
 
-#: wp_highlight.js.php:228
+#: ../wp_highlight.js.php:207
 msgid "Plugin Usage"
 msgstr "Использование"
 
-#: wp_highlight.js.php:229
+#: ../wp_highlight.js.php:208
 msgid ""
 "<p>For code highlighting you should use one of the following ways.</p>\n"
 "                        \n"
-"                        <p><strong>The first way</strong> is to use bb-codes:</p>\n"
+"                        <p><strong>The first way</strong> is to use bb-codes:"
+"</p>\n"
 "                        \n"
-"                        <p><pre><code>[code] this language will be automatically determined [/code]</code></pre></p>\n"
-"                        <p><pre><code>[code lang=\"cpp\"] highlight the code with certain language [/code]</code></pre></p>\n"
+"                        <p><pre><code>[code] this language will be "
+"automatically determined [/code]</code></pre></p>\n"
+"                        <p><pre><code>[code lang=\"cpp\"] highlight the code "
+"with certain language [/code]</code></pre></p>\n"
 "                        \n"
-"                        <p><strong>The second way</strong> is to use html-tags:</p>\n"
+"                        <p><strong>The second way</strong> is to use html-"
+"tags:</p>\n"
 "                        \n"
-"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code&gt; this language will be automatically determined &lt;/code&gt;&lt;/pre&gt;</code></pre></p>\n"
-"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code class=\"html\"&gt; highlight the code with certain language &lt;/code&gt;&lt;/pre&gt;</code></pre></p>"
+"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code&gt; "
+"this language will be automatically determined &lt;/code&gt;&lt;/pre&gt;</"
+"code></pre></p>\n"
+"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code "
+"class=\"html\"&gt; highlight the code with certain language &lt;/code&gt;"
+"&lt;/pre&gt;</code></pre></p>"
 msgstr ""
-"<p>Для подсветки кода вы должны использовать один из приведённых ниже способов.</p>\n"
+"<p>Для подсветки кода вы должны использовать один из приведённых ниже "
+"способов.</p>\n"
 "                        \n"
-"                        <p><strong>Первый способ</strong> заключается в использовании bb-кодов:</p>\n"
+"                        <p><strong>Первый способ</strong> заключается в "
+"использовании bb-кодов:</p>\n"
 "                        \n"
-"                        <p><pre><code>[code] этот язык будет автоматически определён [/code]</code></pre></p>\n"
-"                        <p><pre><code>[code lang=\"cpp\"] подсветить код определённым языком [/code]</code></pre></p>\n"
+"                        <p><pre><code>[code] этот язык будет автоматически "
+"определён [/code]</code></pre></p>\n"
+"                        <p><pre><code>[code lang=\"cpp\"] подсветить код "
+"определённым языком [/code]</code></pre></p>\n"
 "                        \n"
-"                        <p><strong>Второй способ</strong> заключается в использовании html-тегов:</p>\n"
+"                        <p><strong>Второй способ</strong> заключается в "
+"использовании html-тегов:</p>\n"
 "                        \n"
-"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code&gt; этот язык будет автоматически определён &lt;/code&gt;&lt;/pre&gt;</code></pre></p>\n"
-"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code class=\"html\"&gt;  подсветить код определённым языком &lt;/code&gt;&lt;/pre&gt;</code></pre></p>"
+"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code&gt; "
+"этот язык будет автоматически определён &lt;/code&gt;&lt;/pre&gt;</code></"
+"pre></p>\n"
+"                        <p><pre><code class=\"html\">&lt;pre&gt;&lt;code "
+"class=\"html\"&gt;  подсветить код определённым языком &lt;/code&gt;&lt;/"
+"pre&gt;</code></pre></p>"
 
-#: wp_highlight.js.php:243
+#: ../wp_highlight.js.php:222
 msgid "Language Support"
 msgstr "Поддерживаемые языки"
-
