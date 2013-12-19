@@ -51,6 +51,8 @@ Author: [Igor Kalnitsky](http://kalnitsky.org/)
 = 0.3.3 =
 
 - Add Spanish translations.
+- Update highlight.js core.
+- Add new colorschemes.
 
 = 0.3.2 =
 
