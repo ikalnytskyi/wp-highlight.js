@@ -44,7 +44,7 @@ Languages
   Scala                   SciLab                  SCSS
   Smalltalk               SQL                     TeX
   Vala                    VisualBasic .NET        VBscript
-  VHDL
+  VHDL                    Oxygene                 Mathematica
 ====================    ====================    ====================
 
 
@@ -59,11 +59,19 @@ Installation
    ``[code]`` BB-tag.
 
 
+Localization
+````````````
+
+:Spanish:   Andrew Kurtis and WebHostingHub_
+
+.. _WebHostingHub:  http://www.webhostinghub.com/
+
+
 Meta
 ````
 
 :Author:        `Igor Kalnitsky <http://kalnitsky.org/about/en/>`_
 :Plugin URL:    `wordpress site <http://wordpress.org/extend/plugins/wp-highlightjs/>`_
 
-:Version:       0.3.3
+:Version:       0.3.4
 :License:       BSD

@@ -3,7 +3,7 @@ Donate link: http://kalnitsky.org/
 Tags: source, code, highlight, sourcecode, highlighter, plugin, syntax, SyntaxHighlighter
 Requires at least: 3.0
 Tested up to: 3.8.0
-Stable tag: 0.3.3
+Stable tag: 0.3.4
 
 This is simple wordpress plugin for highlight.js library.
 Highlight.js highlights syntax in code examples on blogs, forums and in fact on
@@ -32,7 +32,7 @@ HTML/XML, HTTP, INI, Java, JavaScript, JSON, Lasso, Lisp, LiveCode Server,
 Lua, Makefile, Markdown, MatLab, MEL, Mizar, Nginx, Objective-C, OCaml,
 Parser3, Perl, PHP, Python's profiler, Python, R, RenderMan RIB,
 RenderMan RSL, Ruby, Rules, Rust, Scala, SciLab, SCSS, Smalltalk, SQL, TeX,
-Vala, VisualBasic .NET, VBscript, VHDL.
+Vala, VisualBasic .NET, VBscript, VHDL, Oxygene, Mathematica.
 
 
 Author: [Igor Kalnitsky](http://kalnitsky.org/)
@@ -47,6 +47,11 @@ Author: [Igor Kalnitsky](http://kalnitsky.org/)
 
 
 == Changelog ==
+
+= 0.3.4 =
+
+- Update highlight.js core to Version 8.0
+- New styles and languages.
 
 = 0.3.3 =
 

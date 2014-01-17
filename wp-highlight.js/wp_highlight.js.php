@@ -3,7 +3,7 @@
 Plugin Name: wp-highlight.js
 Plugin URI: http://kalnitsky.org/projects/wp-highlight.js/
 Description: This is simple wordpress plugin for <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a> library. Highlight.js highlights syntax in code examples on blogs, forums and in fact on any web pages. It&acute;s very easy to use because it works automatically: finds blocks of code, detects a language, highlights it.
-Version: 0.3.3
+Version: 0.3.4
 Author: Igor Kalnitsky
 Author URI: http://kalnitsky.org/
 License: 3-clause BSD
@@ -227,7 +227,7 @@ function hljs_settings_page() {
                         JavaScript, JSON, Lasso, Lisp, Lua, Markdown, MatLab, MEL, Nginx, Objective C,
                         Parser3, Perl, PHP, Python profile, Python, R, RenderMan RSL, RenderMan RIB,
                         Ruby, Rules, Rust, Scala, SCSS, Smalltalk, SQL, TeX, Vala, VisualBasic.NET,
-                        VBscript, VHDL, HTML/XML
+                        VBscript, VHDL, HTML/XML, Oxygene, Mathematica
                         </p>
                     </td>
                 </tr>
