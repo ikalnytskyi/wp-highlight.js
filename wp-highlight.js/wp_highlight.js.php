@@ -116,7 +116,11 @@ add_filter('plugin_action_links', 'hljs_add_settings_link', 10, 2);
  *   Usage: [CODE lang=C++]...[/CODE]
  */
 function hljs_code_handler($atts, $content) {
-    $language = $atts['lang'];
+    if (isset($atts['lang'])) {
+        $language = $atts['lang'];
+    }else{
+        $language = NULL;
+    }
     return "<pre class=\"hljs\"><code class=\"$language\">" . ltrim($content, '\n') . '</code></pre>';
 }
 add_shortcode('code', 'hljs_code_handler');
